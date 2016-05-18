@@ -117,6 +117,18 @@ do {
 
 // Create an object that represents a particular book, having attributes of title, author, isbn, pages, and year of publication.
 
+function Book(title, author, year) {
+  this.title = title;
+  this.author = author;
+  this.year = year;
+  this.printDetails = function() {
+    console.log(this.title + " " + this.author + " " + this.year);
+  }
+}
+
+var mobyDick = new Book("Moby Dick", "Melville", 1492);
+
+
 // // Exercise #9:
 
 // Add a function to the above book object that console.logs out all the above information 
