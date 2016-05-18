@@ -5,6 +5,7 @@
 
 // JAVASCRIPT CONSOLE
 // console.log("Hello");
+// console.log("Bye");
 
 
 
@@ -27,6 +28,7 @@
 // var x = "cat";
 // var y = "fish";
 // console.log(x + y);
+// console.log("hello " + "bob");
 
 
 
@@ -57,6 +59,12 @@
 // var x = 1;
 // x++;
 // console.log(x);
+// x--;
+// x--;
+// x--;
+// x--;
+// x--;
+// x--;
 // x--;
 // console.log(x);
 
@@ -91,7 +99,7 @@
 // console.log(people[0]);
 // console.log(people[1]);
 // console.log(people[2]);
-//
+
 // people.push("Cookie Monster");
 // console.log(people);
 // console.log(people.length);
@@ -109,9 +117,9 @@
 
 // JAVASCRIPT OBJECTS (similar to Ruby hashes)
 // var person = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue"};
-// console.log(person["firstName"]);
-// console.log(person.firstName);
-//
+// // console.log(person["firstName"]);
+// // console.log(person.firstName);
+
 // var x = "firstName";
 // console.log(person[x]);
 // console.log(person.x);  // DOESN'T WORK!!!
@@ -148,7 +156,9 @@
 // 234.to_s
 
 // JAVASCRIPT TYPE CONVERSION
-// parseInt("234");
+// var number = parseInt("234");
+// console.log(number);
+
 // var num = 234;
 // num.toString();
 
@@ -166,6 +176,7 @@
 // end
 
 // JAVASCRIPT CONDITIONALS:
+// x = 76
 // if (x > 50) {
 //   console.log("High number");
 // } else if (x < 25) {
@@ -245,12 +256,12 @@
 // }
 //
 // Logical equivalent of the above for loop:
-// var i = 0;
-// while(i < 10) {
+// var i = 12;
+// do {
 //   console.log(i);
 //   i++;
-// }
-//
+// } while (i < 10)
+
 // What the above for loop means in English:
 // for(let's set an arbitrary variable called i to be set to 0;
 // let's continue running the loop as long as i is less than 10;
@@ -331,10 +342,10 @@
 // var cool = function() {
 //   console.log("A variable can contain a function!");
 // }
-// cool();
-// console.log(typeof cool);
-//
-// Functions can also, therefore, be one of the properties of an object
+// // cool();
+// // console.log(typeof cool);
+// //
+// // Functions can also, therefore, be one of the properties of an object
 // var car = {
 //   model: "Buick",
 //   year: 2004,
@@ -353,13 +364,13 @@
 // RUBY CLASS:
 // class Car
 //   attr_accessor :model, :year, :miles
-//
+
 //   def initialize(model, year, miles)
 //     @model = model
 //     @year = year
 //     @miles = miles
 //   end
-//
+
 //   def print_message
 //     puts "#{model} has done #{miles} miles"
 //   end
@@ -371,7 +382,7 @@
 // puts civic.year
 // puts civic.print_message
 
-// JAVASCRIPT CONSTRUCTORS (the closest thing to Ruby classes)
+// // JAVASCRIPT CONSTRUCTORS (the closest thing to Ruby classes)
 // function Car(model, year, miles) {
 //   this.model = model;
 //   this.year = year;
