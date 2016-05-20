@@ -71,23 +71,23 @@
 
 // Recreate the guess a number game between 1 and 100. That is, the computer chooses a random number between 1 and 100, and tells the user to pick higher or lower. The user has 10 tries. Use the prompt function to help you with this. (NOTE: prompt will return a string, and you may need to "cast" it into a number.)
 // For example:
-var answer = Math.floor((Math.random() * 100) + 1);
-var guesses = 0;
-do {
-  var guess = parseInt(prompt("Guess a number"));
-  if (guesses > 10) {
-    console.log("You lose!!!");
-    break;
-  }
-  else if (guess > answer) {
-    console.log("Guess lower!")
-  } else if (guess < answer) {
-    console.log("Guess higher!")
-  } else {
-    alert("You've won!!!")
-  }
-  guesses++;
-} while (guess !== answer)
+// var answer = Math.floor((Math.random() * 100) + 1);
+// var guesses = 0;
+// do {
+//   var guess = parseInt(prompt("Guess a number"));
+//   if (guesses > 10) {
+//     console.log("You lose!!!");
+//     break;
+//   }
+//   else if (guess > answer) {
+//     console.log("Guess lower!")
+//   } else if (guess < answer) {
+//     console.log("Guess higher!")
+//   } else {
+//     alert("You've won!!!")
+//   }
+//   guesses++;
+// } while (guess !== answer)
 
 // // Exercise #6:
 
@@ -117,16 +117,16 @@ do {
 
 // Create an object that represents a particular book, having attributes of title, author, isbn, pages, and year of publication.
 
-function Book(title, author, year) {
-  this.title = title;
-  this.author = author;
-  this.year = year;
-  this.printDetails = function() {
-    console.log(this.title + " " + this.author + " " + this.year);
-  }
-}
+// function Book(title, author, year) {
+//   this.title = title;
+//   this.author = author;
+//   this.year = year;
+//   this.printDetails = function() {
+//     console.log(this.title + " " + this.author + " " + this.year);
+//   }
+// }
 
-var mobyDick = new Book("Moby Dick", "Melville", 1492);
+// var mobyDick = new Book("Moby Dick", "Melville", 1492);
 
 
 // // Exercise #9:
